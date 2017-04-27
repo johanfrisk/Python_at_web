@@ -1,2 +1,2 @@
-# Python_at_web
-my collection of resources for connecting Python to web
+# Some bits and bobs for scraping
+My collection of resources for connecting Python to the web. 
