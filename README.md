@@ -1,8 +1,8 @@
 # Some bits and bobs for scraping - plus some BDD
 
-## Webscraping
+## Web scraping
 My collection of resources for connecting Python to the web.
 
-## Behavior driven testin
+## Behavior driven testing
 Trying out 'Behave' with 'Gherkin' as frameworks for specification and testing
 of Python code.
