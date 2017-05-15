@@ -1,0 +1,26 @@
+
+#################################### Method ########################################
+# 1. Create a repo on github
+# 2. cd into the file on your disk where the repo should go
+# 3. create a folder called notebooks
+# 4. git clone (the link from github)
+# 5. check that the anaconda image is downloaded by docker images
+# 6. Start a container using the path to the repo for mapping the volume
+
+
+
+# To download the image from docker hub
+# https://hub.docker.com/r/continuumio/anaconda3/
+docker pull continuumio/anaconda3
+
+# To start a container and map a volume
+docker run -i -t -v /Users/jfr/Documents/CourseraMOOC/Python/Python_at_web/notebooks:/opt/notebooks -p 8888:8888 continuumio/anaconda3 /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser"
+
+# To use BDD with behave
+## mkdir /features
+## mkdir /features/steps
+pip install behave
+
+# To use Pytest
+## but pytest doesn’t install on the anaconda3 docker image
+#pip install -U pytest
