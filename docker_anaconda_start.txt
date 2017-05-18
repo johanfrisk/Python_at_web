@@ -15,6 +15,8 @@ docker pull continuumio/anaconda3
 
 # To start a container and map a volume
 docker run -i -t -v /Users/jfr/Documents/CourseraMOOC/Python/Python_at_web/notebooks:/opt/notebooks -p 8888:8888 continuumio/anaconda3 /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser"
+# the command will give a link to open to the “home” page, to start it from command line
+open -a "Google Chrome" http://stackoverflow.com http://wikipedia.org
 
 # To use BDD with behave
 ## mkdir /features
