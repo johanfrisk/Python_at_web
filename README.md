@@ -11,10 +11,10 @@ of Python code.
 The things I want to accomplish around scraping:
 
 - [x] MOOC on webscraping with Python
-++ [x] HTML with Beautiful Soup
-++ [x] XML with lxml and etree
-++ [x] JSON with json
-++ [x] Regex with RE
-++ [x] HTML more in depth following video tutorial
+	+ [x] HTML with Beautiful Soup
+	+ [x] XML with lxml and etree
+	+ [x] JSON with json
+	+ [x] Regex with RE
+	+ [x] HTML more in depth following video tutorial
 - [ ] Getting a script working scraping financial figures
 - [ ] Getting Behave into a natural part of my workflow
