@@ -18,3 +18,4 @@ The things I want to accomplish around scraping:
 	+ [x] HTML more in depth following video tutorial
 - [ ] Getting a script working scraping financial figures
 - [ ] Getting Behave into a natural part of my workflow
+- [ ] Create a simple library for scraping data based on my learnings from the course
